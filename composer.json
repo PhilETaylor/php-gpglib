@@ -1,6 +1,6 @@
 {
-    "name": "wikimedia/gpglib",
-    "description": "A wrapper around GPG for stateless operations.",
+    "name": "philtaylor/gpglib",
+    "description": "A wrapper around GPG for stateless operations. PSR/Log 1.0+",
     "keywords": ["gpg", "encryption"],
     "license": "MIT",
     "authors": [
