@@ -16,8 +16,8 @@ class ShellGpgLibFactory extends GpgLibFactory implements LoggerAwareInterface {
 	/** @var LoggerInterface */
 	public $logger;
 
-	public function __construct() {
-		$this->tempDirFactory = new TempDirFactory();
+	public function __construct($root=null) {
+		$this->tempDirFactory = new TempDirFactory($root);
 		$this->gpgBinary = 'gpg';
 		$this->logger = new NullLogger();
 	}
