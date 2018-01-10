@@ -1,5 +1,5 @@
 {
-    "name": "philtaylor/gpglib",
+    "name": "philetaylor/gpglib",
     "description": "A wrapper around GPG for stateless operations. PSR/Log 1.0+",
     "keywords": ["gpg", "encryption"],
     "license": "MIT",
